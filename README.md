@@ -1,6 +1,6 @@
 # GraftPortfolio
 
-Fathima Warda's personal portfolio — a living site tracing an adaptability story across six projects spanning FastAPI, applied cryptography, mental health AI, plant science, e-commerce, and epidemiology.
+My personal personal portfolio — a living site tracing an adaptability story across six projects spanning FastAPI, applied cryptography, mental health AI, plant science, e-commerce, and epidemiology.
 
 **Live site:** https://graft-portfolio.vercel.app
 
