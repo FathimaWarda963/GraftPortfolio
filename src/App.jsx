@@ -1,4 +1,5 @@
 import Nav from "./components/Nav";
+import VineTrail from "./components/VineTrail";
 import Home from "./sections/Home";
 import Projects from "./sections/Projects";
 import HowIWork from "./sections/HowIWork";
@@ -8,9 +9,10 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="font-body">
+    <div className="font-body relative">
+      <VineTrail />
       <Nav />
-      <main>
+      <main className="relative z-10">
         <Home />
         <Projects />
         <HowIWork />
