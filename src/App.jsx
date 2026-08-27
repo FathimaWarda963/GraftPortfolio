@@ -4,6 +4,7 @@ import Projects from "./sections/Projects";
 import HowIWork from "./sections/HowIWork";
 import Qualifications from "./sections/Qualifications";
 import Contact from "./sections/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Qualifications />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }

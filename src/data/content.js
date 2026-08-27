@@ -26,4 +26,56 @@ export const content = {
       text: "This isn't generalist drift. Every project pairs a genuine technical decision (a trade-off, a chosen framework, an architecture choice) with a real human or domain context. That pairing is deliberate, and it's repeatable.",
     },
   ],
+    qualifications: {
+    examResults: {
+      board: "Edexcel IAL, Advanced Level",
+      grades: [
+        { subject: "Mathematics", grade: "A" },
+        { subject: "Biology", grade: "A" },
+        { subject: "Chemistry", grade: "A" },
+        { subject: "Further Mathematics", grade: "B" },
+        { subject: "Physics", grade: "C" },
+      ],
+      note: "Further Mathematics was fully self-taught in the two months before finals, across six examined units under the same syllabus — done purely to test whether it was possible. Physics was the one subject where the required grind and my actual interest never quite lined up, and the grade reflects that honestly.",
+    },
+    oLevelHighlight:
+      "9 A*s at O-Level, including Further Mathematics — again taken two months before finals, just to see if it could be done. ICT scored highest in Saudi Arabia that year, in a subject I actively disliked at the time. It's since become my degree.",
+    selfTaught:
+      "Almost everything from O-Level to A-Level was self-taught, at home, rather than in a classroom. I hold a specific belief about how I learn: I need to spend real personal time alone with a concept before it solidifies. Skipping that step means it doesn't stick, no matter how much material I cover. That might read as a loss of structure to some — but it's been the most consistently effective way I've found to actually learn.",
+    relocation:
+      "Sri Lankan by nationality, born and raised in Saudi Arabia, and relocated to Pakistan for my Computer Science degree — a first-time international move built entirely around choosing the right undergraduate fit. SAT: 1390. ACT: 33.",
+    skills: [
+      {
+        category: "Programming Languages",
+        items: ["C++", "Java", "Python", "JavaScript", "Assembly (MASM32)"],
+      },
+      {
+        category: "Web & Software Development",
+        items: ["React.js", "Node.js", "Express.js", "FastAPI", "HTML", "CSS", "Bootstrap"],
+      },
+      {
+        category: "Databases",
+        items: ["MySQL", "Oracle", "MongoDB", "Redis", "Neo4j"],
+      },
+      {
+        category: "Security & ML Tooling",
+        items: ["RSA / AES-GCM", "bcrypt", "pyotp", "scikit-learn", "TextBlob", "Hugging Face Transformers"],
+      },
+      {
+        category: "Tools & Platforms",
+        items: ["Git", "GitHub", "VS Code", "Proteus", "Keil"],
+      },
+      {
+        category: "Areas of Interest",
+        items: [
+          "Systems Design",
+          "Backend Engineering",
+          "Cybersecurity",
+          "Simulation Modeling",
+          "Distributed Systems",
+          "Human-Computer Interaction",
+        ],
+      },
+    ],
+  },
 };
